@@ -1,6 +1,6 @@
 // COLOR VARIABLES
 $color-primary: #e5e5e5;
-$color-grey-dark-2: #6d5d4b;
+$color-grey-dark-2: #0f0f0f;
 
 // FONT VARIABLES
 $font-primary: 'Nunito', sans-serif;
@@ -26,6 +26,7 @@ body {
   font-weight: 300;
   line-height: 1.6;
 }
+// ---- START---- HEADER & LOGO STYLES
 .container{
     display: flex;
     justify-content: space-between;
@@ -33,4 +34,84 @@ body {
 }
 .Header{
     padding-bottom: 15rem;
+}
+// ---- START---- HEADLINES STYLE
+.Headline{
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.Headline__primary{
+  // border: 10px solid red;
+  // padding: 4rem;
+  // width: 32.9rem;
+  width: 327px;
+  left: 24px;
+  top: 64px;
+}
+
+.Text__intro{
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 4rem;
+font-weight: 900;
+line-height: 5.2rem;
+text-align: center;
+text-emphasis-style: bolder;
+// padding: 2rem;
+}
+.headline__secondary{
+  // border: 10px solid green;
+  // width: 30%;
+  // height: 164px;
+  width: 327px;
+  left: 24px;
+  top: 314px;
+}
+.supporting_txt{
+  // font-family:Inter;
+  //styleName: Theme 2 / Body Reguler 1;
+  font-family: $font-primary;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 2.5rem;
+}
+
+// h2{
+//   font-family:$font-primary;
+//   font-style: Bold;
+//   font-size: 4rem;
+//   line-height: 5.2rem;
+//   line-height: 107%;
+//   padding: 2.5rem;
+// }
+// ---- START---- SOCIAL MEDIA STYLE
+.social_media{
+  display: flex;
+  justify-content: space-between;
+
+
+
+  &__links{
+    text-decoration: none;
+
+  }
+
+  &__icons{
+    // height: 20.000062942504883px;
+    // left: 102.41666412353516px;
+    // top: 536px;
+    padding: .68rem;
+  }
+}
+
+.Social__media__list{
+  list-style: none;
 }
