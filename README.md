@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hello-Microverse
+# Portfolio
 
 > In this project, is to create a Portfoilo repository. The Goal is to setup a mobile version first. This project focus on the designing the Header and the Logo.
 
