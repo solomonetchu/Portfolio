@@ -27,44 +27,55 @@ body {
   line-height: 1.6;
 }
 // ---- START---- HEADER & LOGO STYLES
-.container{
-    display: flex;
-    justify-content: space-between;
-    padding: 1.8rem;
-}
-.Header{
-    padding-bottom: 15rem;
-}
-// ---- START---- HEADLINES STYLE
-.Headline{
+.Main-container {
   background-image: url(../img/background.jpg);
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-
+  background-size: 100% 38%;
+  height: 190vh;
+  width: 400px;
+  background-position: 0 80px;
 }
 
-.Headline__primary{
+.menu__link:hover {
+  opacity: 0.6;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.8rem;
+}
+
+.Header {
+  padding-bottom: 5rem;
+}
+// ---- START---- HEADLINES STYLE
+
+.Headline {
+  display: flex;
+  flex-direction: column;
+}
+
+.Headline__primary {
   // border: 10px solid red;
   // padding: 4rem;
   // width: 32.9rem;
   width: 327px;
-  left: 24px;
-  top: 64px;
 }
 
-.Text__intro{
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 4rem;
-font-weight: 900;
-line-height: 5.2rem;
-text-align: center;
-text-emphasis-style: bolder;
-// padding: 2rem;
+.Text__intro {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 3.5rem;
+  font-weight: 1800;
+  line-height: 4.2rem;
+  text-align: center;
+  text-emphasis-style: bolder;
+  // padding: 2rem;
 }
-.headline__secondary{
+
+.headline__secondary {
   // border: 10px solid green;
   // width: 30%;
   // height: 164px;
@@ -72,14 +83,15 @@ text-emphasis-style: bolder;
   left: 24px;
   top: 314px;
 }
-.supporting_txt{
+
+.supporting_txt {
   // font-family:Inter;
   //styleName: Theme 2 / Body Reguler 1;
   font-family: $font-primary;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
   padding: 2.5rem;
 }
@@ -93,25 +105,31 @@ text-emphasis-style: bolder;
 //   padding: 2.5rem;
 // }
 // ---- START---- SOCIAL MEDIA STYLE
-.social_media{
+.social_media {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  width: 280px;
 
-
-
-  &__links{
+  &__links {
     text-decoration: none;
-
   }
 
-  &__icons{
-    // height: 20.000062942504883px;
-    // left: 102.41666412353516px;
+  &__links:hover {
+    opacity: 0.6;
+  }
+
+  &__icons {
+    height: 20px;
+    left: 102.41666412353516px;
     // top: 536px;
-    padding: .68rem;
+    // justify-self: center;
+    justify-self: center;
   }
 }
 
-.Social__media__list{
+.Social__media__list {
   list-style: none;
+  margin-left: 1rem;
 }
+
+//Mobile version
