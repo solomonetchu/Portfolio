@@ -35,8 +35,11 @@ html {
     display: flex;
     flex-direction: column;
     background-size: 100% 40%;
+    width: 100%;
     height: 1400px;
     background-position: 0 60px;
+    margin-bottom: -82rem;
+    
   }
 
   .menu__link:hover {
