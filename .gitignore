@@ -2,3 +2,5 @@
 node_modules/
 sass/
 test.md
+package.json
+package-lock.json
