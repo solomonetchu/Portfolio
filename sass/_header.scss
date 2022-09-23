@@ -36,6 +36,7 @@ html {
     flex-direction: column;
     background-size: 100% 40%;
     height: 1400px;
+    width: 100%;
     background-position: 0 60px;
   }
 
@@ -59,8 +60,6 @@ html {
 
   .logo {
     color: #28352f;
-    //styleName: Theme 2 / Subhead 1;
-    // font-family: Inter, sans-serif;
     font-family: inherit;
     font-size: 20px;
     font-weight: 600;
@@ -93,7 +92,6 @@ html {
     text-align: center;
     text-emphasis-style: bolder;
     color: #28352f;
-    // padding: 2rem;
   }
 
   .Name_title {
@@ -101,17 +99,12 @@ html {
   }
 
   .headline__secondary {
-    // border: 10px solid green;
-    // width: 30%;
-    // height: 164px;
     width: 327px;
     left: 24px;
     top: 314px;
   }
 
   .supporting_txt {
-    // font-family:Inter;
-    //styleName: Theme 2 / Body Reguler 1;
     font-family: $font-primary;
     font-size: 20px;
     font-weight: 400;

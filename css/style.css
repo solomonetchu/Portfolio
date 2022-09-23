@@ -25,6 +25,7 @@ html {
     flex-direction: column;
     background-size: 100% 40%;
     height: 1400px;
+    width: 100%;
     background-position: 0 60px;
   }
   .menu__link:hover {
