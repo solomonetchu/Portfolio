@@ -1,5 +1,5 @@
 // COLOR VARIABLES
-$color-primary: #e5e5e5;
+$color-primary: #28352f;
 $color-grey-dark-2: #28352f;
 
 // FONT VARIABLES
@@ -59,16 +59,14 @@ html {
 
   .logo {
     color: #28352f;
-    font-size: 20px;
     //styleName: Theme 2 / Subhead 1;
     // font-family: Inter, sans-serif;
     font-family: inherit;
     font-size: 20px;
     font-weight: 600;
     line-height: 28px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: center;
-
   }
 
   .logo__link:hover {
@@ -88,12 +86,13 @@ html {
 
   .Text__intro,
   .Name_title {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: " Inter ", Helvetica, Arial, sans-serif;
     font-size: 3.5rem;
     font-weight: 30000;
     line-height: 4.2rem;
     text-align: center;
     text-emphasis-style: bolder;
+    color: #28352f;
     // padding: 2rem;
   }
 
