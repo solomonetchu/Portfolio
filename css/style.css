@@ -19,14 +19,13 @@ html {
     line-height: 1.6;
   }
   .Main-container {
-    background-image: url(../img/background.jpg);
+    background-image: url(../img/header-illsutration-mobile.png);
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    background-size: 100% 38%;
-    height: 1480px;
-    width: 337px;
-    background-position: 0 75px;
+    background-size: 100% 40%;
+    height: 1400px;
+    background-position: 0 60px;
   }
   .menu__link:hover {
     opacity: 0.6;
@@ -52,6 +51,7 @@ html {
   .Headline {
     display: flex;
     flex-direction: column;
+    align-self: center;
   }
   .Headline__primary {
     width: 327px;
