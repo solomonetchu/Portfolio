@@ -1,0 +1,141 @@
+// COLOR VARIABLES
+$color-primary: #28352f;
+$color-grey-dark-2: #28352f;
+
+// FONT VARIABLES
+$font-primary: 'Nunito', sans-serif;
+$font-display: 'Josefin Sans', sans-serif;
+
+// overall display setting
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 10px/16px = 62.5% -> 1rem = 10px
+}
+
+//Mobile version
+@media only screen and (max-width: 600px) {
+  body {
+    font-family: $font-primary;
+    color: $color-grey-dark-2;
+    font-weight: 300;
+    line-height: 1.6;
+  }
+  // ---- START---- HEADER & LOGO STYLES
+  .Main-container {
+    background-image: url(../img/header-illsutration-mobile.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    background-size: 100% 40%;
+    height: 1400px;
+    width: 100%;
+    background-position: 0 60px;
+  }
+
+  .menu__link:hover {
+    opacity: 0.6;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.8rem;
+  }
+
+  .Header {
+    padding-bottom: 5rem;
+  }
+
+  .logo__link {
+    text-decoration: none;
+  }
+
+  .logo {
+    color: #28352f;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .logo__link:hover {
+    transform: scaleY(1.5);
+  }
+  // ---- START---- HEADLINES STYLE
+
+  .Headline {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+
+  .Headline__primary {
+    width: 327px;
+  }
+
+  .Text__intro,
+  .Name_title {
+    font-family: " Inter ", Helvetica, Arial, sans-serif;
+    font-size: 3.5rem;
+    font-weight: 30000;
+    line-height: 4.2rem;
+    text-align: center;
+    text-emphasis-style: bolder;
+    color: #28352f;
+  }
+
+  .Name_title {
+    color: #36b37e;
+  }
+
+  .headline__secondary {
+    width: 327px;
+    left: 24px;
+    top: 314px;
+  }
+
+  .supporting_txt {
+    font-family: $font-primary;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-align: center;
+    padding: 2.5rem;
+  }
+  // ---- START---- SOCIAL MEDIA STYLE
+  .social_media {
+    display: flex;
+    justify-content: center;
+    width: 280px;
+
+    &__links {
+      text-decoration: none;
+    }
+
+    &__links:hover {
+      opacity: 0.6;
+    }
+
+    &__icons {
+      height: 20px;
+      left: 102.41666412353516px;
+      justify-self: center;
+    }
+  }
+
+  .Social__media__list {
+    list-style: none;
+    margin-left: 1rem;
+  }
+}
