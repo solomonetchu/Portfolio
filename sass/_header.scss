@@ -21,7 +21,6 @@ html {
 }
 
 //Mobile version
-@media only screen and (max-width: 600px) {
   body {
     font-family: $font-primary;
     color: $color-grey-dark-2;
@@ -139,4 +138,3 @@ html {
     list-style: none;
     margin-left: 1rem;
   }
-}
