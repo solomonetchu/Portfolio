@@ -11,106 +11,120 @@ html {
   font-size: 62.5%;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    font-family: "Nunito", sans-serif;
-    color: #28352f;
-    font-weight: 300;
-    line-height: 1.6;
-  }
-  .Main-container {
-    background-image: url(../img/header-illsutration-mobile.png);
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    background-size: 100% 40%;
-    height: 1400px;
-    width: 100%;
-    background-position: 0 60px;
-    margin-bottom: -75rem;
-  }
-  .menu__link:hover {
-    opacity: 0.6;
-  }
-  .container {
-    display: flex;
-    justify-content: space-between;
-    padding: 1.8rem;
-  }
-  .Header {
-    padding-bottom: 5rem;
-  }
-  .logo__link {
-    text-decoration: none;
-  }
-  .logo {
-    color: #28352f;
-    font-family: inherit;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 28px;
-    letter-spacing: 0;
-    text-align: center;
-  }
-  .logo__link:hover {
-    transform: scaleY(1.5);
-  }
-  .Headline {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-  }
-  .Headline__primary {
-    width: 327px;
-  }
-  .Text__intro,
-.Name_title {
-    font-family: " Inter ", Helvetica, Arial, sans-serif;
-    font-size: 3.5rem;
-    font-weight: 30000;
-    line-height: 4.2rem;
-    text-align: center;
-    text-emphasis-style: bolder;
-    color: #28352f;
-  }
-  .Name_title {
-    color: #36b37e;
-  }
-  .headline__secondary {
-    width: 327px;
-    left: 24px;
-    top: 314px;
-  }
-  .supporting_txt {
-    font-family: "Nunito", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 28px;
-    letter-spacing: 0;
-    text-align: center;
-    padding: 2.5rem;
-  }
-  .social_media {
-    display: flex;
-    justify-content: center;
-    width: 280px;
-  }
-  .social_media__links {
-    text-decoration: none;
-  }
-  .social_media__links:hover {
-    opacity: 0.6;
-  }
-  .social_media__icons {
-    height: 20px;
-    left: 102.4166641235px;
-    justify-self: center;
-  }
-  .Social__media__list {
-    list-style: none;
-    margin-left: 1rem;
-  }
+body {
+  font-family: "Nunito", sans-serif;
+  color: #28352f;
+  font-weight: 300;
+  line-height: 1.6;
 }
+
+.Main-container {
+  background-image: url(../img/header-illsutration-mobile.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  background-size: 100% 40%;
+  height: 1400px;
+  width: 100%;
+  background-position: 0 60px;
+  margin-bottom: -75rem;
+}
+
+.menu__link:hover {
+  opacity: 0.6;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.8rem;
+}
+
+.Header {
+  padding-bottom: 5rem;
+}
+
+.logo__link {
+  text-decoration: none;
+}
+
+.logo {
+  color: #28352f;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.logo__link:hover {
+  transform: scaleY(1.5);
+}
+
+.Headline {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.Headline__primary {
+  width: 327px;
+}
+
+.Text__intro,
+.Name_title {
+  font-family: " Inter ", Helvetica, Arial, sans-serif;
+  font-size: 3.5rem;
+  font-weight: 30000;
+  line-height: 4.2rem;
+  text-align: center;
+  text-emphasis-style: bolder;
+  color: #28352f;
+}
+
+.Name_title {
+  color: #36b37e;
+}
+
+.headline__secondary {
+  width: 100%;
+  left: 24px;
+  top: 314px;
+}
+
+.supporting_txt {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: center;
+  padding: 2.5rem;
+}
+
+.social_media {
+  display: flex;
+  justify-content: center;
+  width: 280px;
+}
+.social_media__links {
+  text-decoration: none;
+}
+.social_media__links:hover {
+  opacity: 0.6;
+}
+.social_media__icons {
+  height: 20px;
+  left: 102.4166641235px;
+  justify-self: center;
+}
+
+.Social__media__list {
+  list-style: none;
+  margin-left: 1rem;
+}
+
 .hug {
   text-align: center;
 }
@@ -177,12 +191,17 @@ html {
   fill: solid #3a4a42;
 }
 
+.work__done {
+  box-sizing: border-box;
+  text-align: center;
+}
 .work__done__group {
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
+  display: inline-block;
+  text-align: left;
+  margin: 0 auto;
 }
 .work__done__list {
+  float: left;
   border: 1px solid #ccc;
   background-color: #ebf0ee;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -190,9 +209,10 @@ html {
   font-weight: 600;
   line-height: 16px;
   letter-spacing: 0.03em;
-  padding: 8px 12px;
+  padding: 6px 10px;
   margin-top: 15px;
   list-style: none;
+  margin-left: 5px;
 }
 .work__done__link {
   text-decoration: none;
