@@ -69,7 +69,7 @@ body {
 }
 
 .Headline__primary {
-  width: 327px;
+  width: 100%;
 }
 
 .Text__intro,
@@ -191,17 +191,12 @@ body {
   fill: solid #3a4a42;
 }
 
-.work__done {
-  box-sizing: border-box;
-  text-align: center;
-}
 .work__done__group {
-  display: inline-block;
-  text-align: left;
-  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 }
 .work__done__list {
-  float: left;
   border: 1px solid #ccc;
   background-color: #ebf0ee;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -209,7 +204,7 @@ body {
   font-weight: 600;
   line-height: 16px;
   letter-spacing: 0.03em;
-  padding: 6px 10px;
+  padding: 8px 12px;
   margin-top: 15px;
   list-style: none;
   margin-left: 5px;
