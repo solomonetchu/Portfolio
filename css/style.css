@@ -193,7 +193,7 @@ body {
 
 .work__done__group {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   width: 100%;
 }
 .work__done__list {
@@ -207,7 +207,6 @@ body {
   padding: 8px 12px;
   margin-top: 15px;
   list-style: none;
-  margin-left: 5px;
 }
 .work__done__link {
   text-decoration: none;
