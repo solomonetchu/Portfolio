@@ -190,11 +190,10 @@ body {
   fill: solid #3a4a42;
 }
 
-.work__done {
-  text-align: center;
-}
 .work__done__group {
-  display: inline-block;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
 .work__done__list {
   float: left;
@@ -208,7 +207,7 @@ body {
   padding: 8px 12px;
   margin-top: 15px;
   list-style: none;
-  margin-left: 5px;
+  border-radius: 4px;
 }
 .work__done__link {
   text-decoration: none;
