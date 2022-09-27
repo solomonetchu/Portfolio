@@ -422,7 +422,9 @@ body {
   box-sizing: border-box;
 }
 
-label, input, textarea {
+label,
+input,
+textarea {
   display: block;
   font-size: 12px;
   font-weight: 600;
@@ -431,20 +433,16 @@ label, input, textarea {
 
 input {
   margin-bottom: 20px;
-  color: #6B778C;
+  color: #6b778c;
   padding: 20px 20px;
   text-indent: 15px;
 }
 
-input:focus {
-  border: 1px solid #D0D9D4;
-}
-
-input, textarea {
+input,
+textarea {
   box-sizing: border-box;
   border: none;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 2px;
   padding-left: 5px;
   outline: none;
   width: 95%;
@@ -453,8 +451,8 @@ input, textarea {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-textarea:focus {
-  border: 1px solid #60C095;
+input:focus {
+  border: 1px solid #d0d9d4;
 }
 
 textarea {
@@ -463,9 +461,13 @@ textarea {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  color: #091E42;
+  color: #091e42;
   padding-top: 20px;
   padding-left: 20px;
+}
+
+textarea:focus {
+  border: 1px solid #60c095;
 }
 
 footer {
@@ -487,5 +489,5 @@ footer {
   font-weight: 400;
   line-height: 32px;
   padding: 20px;
-  color: #42526E;
+  color: #42526e;
 }

@@ -141,7 +141,7 @@
   margin-bottom: 90px;
 }
 
-.about__me{
+.about__me {
   text-align: center;
 
   &__title {
@@ -284,69 +284,58 @@
   }
 }
 
-.FormText{
+.FormText {
   text-align: center;
   height: 363px;
   box-sizing: border-box;
   margin-top: 20px;
   margin-bottom: 80px;
 
-
-
-  &__para{
-
+  &__para {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
-    color:#172b4d;
+    color: #172b4d;
     padding: 15px;
     margin: 10px;
-    margin-bottom: 20px; 
-
+    margin-bottom: 20px;
   }
 }
 
 //Styling Form
-.contact__container{
+.contact__container {
   margin-top: 15px;
   margin-bottom: 60px;
-
 }
 
-.contact-us{
+.contact-us {
   border-radius: 4px;
   padding-left: 20px;
   box-sizing: border-box;
 }
 
-
-label, input, textarea{
+label,
+input,
+textarea {
   display: block;
   font-size: 12px;
   font-weight: 600;
   line-height: 16px;
 }
 
-input{
+input {
   margin-bottom: 20px;
-  color: #6B778C;
+  color: #6b778c;
   padding: 20px 20px;
   text-indent: 15px;
-
 }
 
-
-input:focus{
-  border: 1px solid #D0D9D4;
-}
-
-
-input, textarea{
+input,
+textarea {
   box-sizing: border-box;
   border: none;
-  border: 1px solid rgba(0,0,0,.1);
-  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   padding-left: 5px;
   outline: none;
   width: 95%;
@@ -354,44 +343,45 @@ input, textarea{
   font-size: 15px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-  
-textarea:focus{
-  border: 1px solid #60C095;
-  
-}
-  
- 
-textarea{
-resize: none;
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 24px;
-color: #091E42;
-padding-top: 20px;
-padding-left: 20px;
+
+input:focus {
+  border: 1px solid #d0d9d4;
 }
 
-footer{
+textarea {
+  resize: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #091e42;
+  padding-top: 20px;
+  padding-left: 20px;
+}
 
+textarea:focus {
+  border: 1px solid #60c095;
+}
+
+footer {
   background-image: url(../img/fotobgFrame.png);
   background-repeat: no-repeat;
   background-position: 100% 100%;
 }
 
-.foto__email{
+.foto__email {
   display: grid;
   justify-content: center;
   padding-bottom: 20rem;
   margin-bottom: 15rem;
 
-  &__links{
+  &__links {
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
     padding: 20px;
-    color: #42526E;
+    color: #42526e;
   }
 }
