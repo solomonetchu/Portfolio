@@ -307,6 +307,8 @@
 .contact__container {
   margin-top: 15px;
   margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-us {
