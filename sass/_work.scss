@@ -43,8 +43,6 @@
   display: flex;
   flex-direction: column;
 
-  // padding: 22px;
-
   &__img {
     width: 100%;
     border-radius: 8px;
@@ -80,7 +78,6 @@
   }
 
   &__list {
-    float: left;
     border: 1px solid #ccc;
     background-color: #ebf0ee;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -203,4 +200,194 @@
 .bgimg {
   background-image: url(../img/bgAbout_meDown.png);
   background-repeat: no-repeat;
+}
+
+.frame-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  justify-content: center;
+  grid-gap: 16px;
+  box-sizing: border-box;
+}
+
+.frame__content {
+  margin: 20px;
+  border-radius: 8px;
+  border: 1px solid #c1c7d0;
+  background-color: #ebf0ee;
+  height: 450px;
+
+  &__Icon {
+    text-align: center;
+  }
+
+  &__links {
+    text-decoration: none;
+  }
+
+  &__img {
+    padding: 40px;
+  }
+}
+
+.frame__Title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  &--text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    fill: solid #3a4a42;
+  }
+}
+
+.frames__done {
+  display: flex;
+  flex-direction: column;
+
+  &__group {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+
+  &__group2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  &__list {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    padding: 12px;
+    list-style: none;
+    border-radius: 8px;
+    margin-right: 8px;
+    margin-left: 6px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #36b37e;
+  }
+}
+
+.FormText {
+  text-align: center;
+  height: 363px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 80px;
+
+  &__para {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #172b4d;
+    padding: 15px;
+    margin: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+//Styling Form
+.contact__container {
+  margin-top: 15px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-us {
+  border-radius: 4px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+label,
+input,
+textarea {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+input {
+  margin-bottom: 20px;
+  color: #6b778c;
+  padding: 20px 20px;
+  text-indent: 15px;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding-left: 5px;
+  outline: none;
+  width: 95%;
+  border-radius: 4px;
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input:focus {
+  border: 1px solid #d0d9d4;
+}
+
+textarea {
+  resize: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #091e42;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+textarea:focus {
+  border: 1px solid #60c095;
+}
+
+.footer__container {
+  background-image: url(../img/fotobgFrame.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+.foto__email {
+  display: grid;
+  justify-content: center;
+  padding-bottom: 20rem;
+  margin-bottom: 15rem;
+
+  &__links {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 20px;
+    color: #42526e;
+  }
+}
+
+footer {
+  margin-bottom: 80px;
 }
