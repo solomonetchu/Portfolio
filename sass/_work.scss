@@ -363,7 +363,7 @@ textarea:focus {
   border: 1px solid #60c095;
 }
 
-footer {
+.footer__container {
   background-image: url(../img/fotobgFrame.png);
   background-repeat: no-repeat;
   background-position: 100% 100%;
@@ -384,4 +384,8 @@ footer {
     padding: 20px;
     color: #42526e;
   }
+}
+
+footer {
+  margin-bottom: 80px;
 }
