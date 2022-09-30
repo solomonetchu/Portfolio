@@ -1,9 +1,18 @@
+@media only screen and (max-width: 600px) {
+  .Ft_img,
+  .Footer__img,
+  .rect__img,
+  .deskform {
+    display: none;
+  }
+}
+
 .hug {
   text-align: center;
 
   &__img {
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: 60px;
     left: 144px;
     top: 4px;
     border-radius: 32px;
@@ -13,6 +22,8 @@
 
 .recent__work {
   text-align: center;
+  margin: auto;
+  width: 55%;
 
   &--text {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -23,8 +34,6 @@
     fill: solid;
     color: #172b4d;
     box-sizing: border-box;
-    height: 97px;
-    width: 327px;
   }
 }
 
@@ -117,22 +126,33 @@
   font-size: 17px;
 }
 
-.btn:hover {
+.Abtn {
+  width: 159px;
+  height: 48px;
+  margin: 12px;
+  border-radius: 4px;
+  padding: 12px;
+  background-color: #36b37f;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  font-size: 17px;
+}
+
+.btn:hover,
+.Abtn:hover {
   background-color: #36b37f;
   box-shadow: 0 8px 16px 0 #36b37f3d;
 }
 
-.btn:active {
+.btn:active,
+.Abtn:hover {
   background-color: #008552;
 }
 
-.btn:enabled {
+.btn:enabled,
+.Abtn:hover {
   background-color: #36b37f;
-}
-
-.Abtn {
-  width: 159px;
-  margin: 12px;
 }
 
 .about__me__Container {
@@ -317,24 +337,24 @@
   box-sizing: border-box;
 }
 
-label,
-input,
-textarea {
+.mobile__label,
+.mobile__input,
+.mobile__textarea {
   display: block;
   font-size: 12px;
   font-weight: 600;
   line-height: 16px;
 }
 
-input {
+.mobile__input {
   margin-bottom: 20px;
   color: #6b778c;
   padding: 20px 20px;
   text-indent: 15px;
 }
 
-input,
-textarea {
+.mobile__input,
+.mobile__textarea {
   box-sizing: border-box;
   border: none;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -346,11 +366,11 @@ textarea {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-input:focus {
+.mobile__input:focus {
   border: 1px solid #d0d9d4;
 }
 
-textarea {
+.mobile__textarea {
   resize: none;
   font-style: normal;
   font-weight: 400;
@@ -361,7 +381,7 @@ textarea {
   padding-left: 20px;
 }
 
-textarea:focus {
+.mobile__textarea:focus {
   border: 1px solid #60c095;
 }
 

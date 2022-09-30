@@ -27,6 +27,21 @@ body {
   font-weight: 300;
   line-height: 1.6;
 }
+
+@media only screen and (max-width: 600px) {
+  .desktop {
+    display: none;
+  }
+
+  .hug__Desktop {
+    display: none;
+
+    &__img {
+      display: inherit;
+    }
+  }
+}
+
 // ---- START---- HEADER & LOGO STYLES
 .Main-container {
   background-image: url(../img/header-illsutration-mobile.png);
@@ -44,7 +59,7 @@ body {
   opacity: 0.6;
 }
 
-.container {
+.mobile {
   display: flex;
   justify-content: space-between;
   padding: 1.8rem;
