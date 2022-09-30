@@ -562,7 +562,6 @@ footer {
   }
   .desktop__nav__list {
     list-style: none;
-    transition: all 2s ease-out;
   }
   .desktop__nav__link {
     text-decoration: none;
@@ -573,10 +572,10 @@ footer {
     font-weight: 600;
     line-height: 28px;
     letter-spacing: 0;
-    text-align: center;    
+    text-align: center;
   }
   .desktop__nav__list:hover {
-    scale: 1.2;    
+    scale: 1.2;
   }
   .headline__secondary {
     margin: auto;
