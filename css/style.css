@@ -574,6 +574,9 @@ footer {
     letter-spacing: 0;
     text-align: center;
   }
+  .desktop__nav__list:hover {
+    scale: 1.2;
+  }
   .headline__secondary {
     margin: auto;
     width: 55%;
