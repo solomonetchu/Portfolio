@@ -90,7 +90,8 @@ body {
   font-weight: 30000;
   line-height: 4.2rem;
   text-align: center;
-  text-emphasis-style: bolder;
+  -webkit-text-emphasis-style: bolder;
+          text-emphasis-style: bolder;
   color: #28352f;
 }
 
@@ -635,7 +636,8 @@ footer {
   .frame-container {
     margin: auto;
     width: 70%;
-    column-gap: 20px;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
     justify-content: center;
     margin-bottom: 10rem;
   }
@@ -749,4 +751,4 @@ footer {
     bottom: 10%;
     left: 0;
   }
-}
+}/*# sourceMappingURL=main.css.map */
