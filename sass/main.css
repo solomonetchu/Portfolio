@@ -90,7 +90,8 @@ body {
   font-weight: 30000;
   line-height: 4.2rem;
   text-align: center;
-  text-emphasis-style: bolder;
+  -webkit-text-emphasis-style: bolder;
+          text-emphasis-style: bolder;
   color: #28352f;
 }
 
@@ -562,7 +563,6 @@ footer {
   }
   .desktop__nav__list {
     list-style: none;
-    transition: all 2s ease-out;
   }
   .desktop__nav__link {
     text-decoration: none;
@@ -573,10 +573,10 @@ footer {
     font-weight: 600;
     line-height: 28px;
     letter-spacing: 0;
-    text-align: center;    
+    text-align: center;
   }
   .desktop__nav__list:hover {
-    scale: 1.2;    
+    scale: 1.2;
   }
   .headline__secondary {
     margin: auto;
@@ -636,7 +636,8 @@ footer {
   .frame-container {
     margin: auto;
     width: 70%;
-    column-gap: 20px;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
     justify-content: center;
     margin-bottom: 10rem;
   }
@@ -750,4 +751,4 @@ footer {
     bottom: 10%;
     left: 0;
   }
-}
+}/*# sourceMappingURL=main.css.map */
