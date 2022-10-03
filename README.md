@@ -22,14 +22,17 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup: Modern Internet Browser
 
-
+## Live Demo: 
+[Live Demo]( https://solomonetchu.github.io/Portfolio/)
 
 
 ## Authors
 
+
 👤 **Tanyi Solomon**
 
 - GitHub: [@solomonetchu](https://github.com/solomonetchu)
+
 
 ## 🤝 Contributing
 
