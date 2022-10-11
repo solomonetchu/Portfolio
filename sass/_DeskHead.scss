@@ -24,17 +24,30 @@
 
   .mobile__label,
   .mobile__input,
-  .mobile__textarea {
+  .mobile__textarea,
+  .navbar,
+  .nav-branding {
     display: none;
   }
 
-  .desktop {
-    margin-top: 2rem;
+  .Header {
+    padding-bottom: 5rem;
+    width: 100%;
   }
 
-  .desktop__nav {
+  .navbar {
+    min-height: 7rem;
+    display: flex;
+    // justify-content: center;
+    // align-items: center;
+    padding: 0 24px;
+  }
+
+  .nav__mobile {
     display: flex;
     justify-content: center;
+    // justify-content: space-between;
+    gap: 30px;
 
     &__list {
       list-style: none;
@@ -50,10 +63,11 @@
       line-height: 28px;
       letter-spacing: 0;
       text-align: center;
+      transition: 0.7s ease;
     }
   }
 
-  .desktop__nav__list:hover {
+  .nav__mobile__link:hover {
     scale: 1.2;
   }
 
@@ -209,7 +223,7 @@
     outline: none;
     border-radius: 4px;
     font-size: 15px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
 
   .desktop__input:focus {
