@@ -16,27 +16,38 @@
 <body>
     <main class="Main-container">
         <header class="Header">
-            <nav class="navbar">
-                <a href="#" class="nav-branding">Welcome</a>  
-                    
-                        <ul class="nav__mobile">
-                            <li class="nav__mobile__list">
-                                <a href="#works" class="nav__mobile__link  nav-link">Portfolio</a>
-                            </li>
-                            <li class="nav__mobile__list">
-                                <a href="#aboutMe" class="nav__mobile__link  nav-link">About</a>
-                            </li>
-                            <li class="nav__mobile__list">
-                                <a href="#contact" class="nav__mobile__link  nav-link">Contact</a>
-                            </li>
-                        </ul>
+            <nav class="container">
+                <div class="mobile">
+                    <div class="logoplaceholder">
+                        <a href="#" class="logo__link"><span class="logo"> <strong>Welcome</strong></span></a>
 
-                        <div class="hmburger">
-                            <span class="bar"></span>
-                            <span class="bar"></span>
-                            <span class="bar"></span>
-                           
+                    </div>
+                    <div class="menu__button">
+                        <div class="Menu__Icon">
+                            <a href="#" class="menu__link">
+                                <img src="img/Icon - Menu.svg" alt="Menu Icon">
+                            </a>
                         </div>
+                    </div>
+
+                </div>
+
+
+                <div class="desktop">
+                    <ul class="desktop__nav">
+                        <li class="desktop__nav__list">
+                            <a href="#" class="desktop__nav__link">Portfolio</a>
+                        </li>
+                        <li class="desktop__nav__list">
+                            <a href="#" class="desktop__nav__link">About</a>
+                        </li>
+                        <li class="desktop__nav__list">
+                            <a href="#" class="desktop__nav__link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+
 
             </nav>
         </header>
@@ -108,7 +119,7 @@
         </div>
     </section>
 
-    <section class="works" id="works" >
+    <section class="works">
         <div class="work">
             <a href="#">
                 <img src="img/house-1.jpeg" alt="Work 1" class="work__img">
@@ -304,7 +315,7 @@
 
     </section>
 
-    <section class="about__me__Container" id="aboutMe">
+    <section class="about__me__Container">
 
         <div class="about__me">
             <div class="bgrht"><img src="img/AboutMEtop.png" alt="" class="bgrht__img"></div>
@@ -416,7 +427,7 @@
     </section>
 
     <footer>
-        <div class="footer__container" id="contact">
+        <div class="footer__container">
 
             <div class="formHeadContain">
                 <div class="FormText">
@@ -539,7 +550,7 @@
 
 
 
-<script src="/Script/index.js"></script>
+
 </body>
 
 </html>
