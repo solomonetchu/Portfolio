@@ -16,38 +16,27 @@
 <body>
     <main class="Main-container">
         <header class="Header">
-            <nav class="container">
-                <div class="mobile">
-                    <div class="logoplaceholder">
-                        <a href="#" class="logo__link"><span class="logo"> <strong>Welcome</strong></span></a>
-
-                    </div>
-                    <div class="menu__button">
-                        <div class="Menu__Icon">
-                            <a href="#" class="menu__link">
-                                <img src="img/Icon - Menu.svg" alt="Menu Icon">
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-
-
-                <div class="desktop">
-                    <ul class="desktop__nav">
-                        <li class="desktop__nav__list">
-                            <a href="#" class="desktop__nav__link">Portfolio</a>
+            <nav class="navbar">
+                
+                    <a href="#" class="nav-branding"><span class="logo"> <strong>Welcome</strong></span></a>
+                    <ul class="nav__mobile">
+                        <li class="nav__mobile__list">
+                            <a href="#work" class="nav__mobile__link nav-link">Portfolio</a>
                         </li>
-                        <li class="desktop__nav__list">
-                            <a href="#" class="desktop__nav__link">About</a>
+                        <li class="nav__mobile__list">
+                            <a href="#about" class="nav__mobile__link nav-link">About</a>
                         </li>
-                        <li class="desktop__nav__list">
-                            <a href="#" class="desktop__nav__link">Contact</a>
+                        <li class="nav__mobile__list">
+                            <a href="#contact" class="nav__mobile__link nav-link">Contact</a>
                         </li>
                     </ul>
-                </div>
+                    <div class="hmburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
 
-
+                    </div>
+                    
 
             </nav>
         </header>
@@ -113,7 +102,7 @@
                 <img src="img/hug.png" alt="Going to the next" class="hug__img">
             </a>
         </div>
-        <div class="recent__work">
+        <div class="recent__work" id="work">
             <h3 class="recent__work--text">My Recent Works</h3>
             <div class="indicator"><img src="img/Indicator.png" alt="indicator line" class="incdiactor__img"></div>
         </div>
@@ -315,7 +304,7 @@
 
     </section>
 
-    <section class="about__me__Container">
+    <section class="about__me__Container" id="about">
 
         <div class="about__me">
             <div class="bgrht"><img src="img/AboutMEtop.png" alt="" class="bgrht__img"></div>
@@ -427,7 +416,7 @@
     </section>
 
     <footer>
-        <div class="footer__container">
+        <div class="footer__container" id="contact">
 
             <div class="formHeadContain">
                 <div class="FormText">
@@ -545,12 +534,9 @@
             </a>
         </div>
 
-    </footer>
+    </footer>z
 
-
-
-
-
+    <script src="/Script/index.js"></script>
 </body>
 
 </html>
