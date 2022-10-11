@@ -642,6 +642,8 @@ footer {
   .navbar {
     min-height: 7rem;
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 0 24px;
   }
   .nav__mobile {
@@ -665,7 +667,7 @@ footer {
     transition: 0.7s ease;
   }
   .nav__mobile__link:hover {
-    scale: 1.2;
+    background-color: #60c095;
   }
   .headline__secondary {
     margin: auto;
