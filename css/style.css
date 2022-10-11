@@ -316,7 +316,8 @@ body {
   color: #3a4a42;
 }
 
-.btn__style {
+.btn__style,
+.mbtns {
   display: grid;
   justify-content: center;
   margin-top: 15px;
@@ -612,6 +613,7 @@ footer {
 @media only screen and (min-width: 768px) {
   .mobile,
 .mbtn,
+.mbtns,
 .foto__email,
 .foto__email__links,
 .incdiactor__img,
