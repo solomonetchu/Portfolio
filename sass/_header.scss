@@ -93,6 +93,7 @@ body {
     transition: 0.7s ease;
   }
 }
+
 .nav__mobile__link:hover {
   scale: 1.2;
 }
@@ -139,9 +140,11 @@ body {
   .hmburger.active .bar:nth-child(2) {
     opacity: 0;
   }
+
   .hmburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
+
   .hmburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
@@ -163,6 +166,7 @@ body {
     z-index: 700;
     height: 100vh;
   }
+
   .nav__mobile__list {
     margin: 16px 0;
   }
