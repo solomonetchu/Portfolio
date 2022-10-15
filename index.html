@@ -525,24 +525,33 @@
 
                 <!-- The Form of Desktop -->
 
-                <form action="action=" https://formspree.io/f/mjvzwoky" name="simple-contact-form"
+                <form id ="formD" action="action=" https://formspree.io/f/mjvzwoky" name="simple-contact-form"
                     accept-charset="utf-8" method="post" class="deskform">
-                    <label for="FullName" class=".desktop__label" hidden>Full name</label>
+                    
+                        <label for="FullName" class=".desktop__label" hidden>Full name</label>
                     <input id="FullName_desktop" name="Full Name" required="" maxlength="30" type="text"
                         placeholder="Full name" class="desktop__input Fname" />
-                    <label for="LastName_desktop" class=".desktop__label" hidden>Last name</label>
-                    <input id="LastName_desktop" name="Last Name" required="" maxlength="30" type="text"
-                        placeholder="Last name" class="desktop__input lname" />
-                    <label for="contactEmail_desktop" class=".desktop__label" hidden>Email</label>
-                    <input id="contactEmail_desktop" name="Email" required="" type="email" placeholder="Email adress"
-                        class="desktop__input emailInput" />
-                    <label for="TextID_desktop" class=".desktop__label" hidden>Enter Text</label>
-                    <textarea id="TextID_desktop" name="TextArea" maxlength="500" required rows="2"
-                        placeholder="Typing something" class="desktop__textarea"></textarea>
 
+                
+                        <label for="LastName_desktop" class=".desktop__label" hidden>Last name</label>
+                        <input id="LastName_desktop" name="Last Name" required="" maxlength="30" type="text"
+                            placeholder="Last name" class="desktop__input lname" />
+
+                    
+                        <label for="contactEmail_desktop" class=".desktop__label" hidden>Email</label>
+                         <input id="contactEmail_desktop" name="Email" required="" type="email" placeholder="Email adress"
+                        class="desktop__input emailInput email" />
+
+                    
+                        <label for="TextID_desktop" class=".desktop__label" hidden>Enter Text</label>
+                        <textarea id="TextID_desktop" name="TextArea" maxlength="500" required  rows="2"
+                            placeholder="Typing something" class="desktop__textarea"></textarea>
+
+                   
+                   
                     <div class="btn__Desk">
                         <a href="#" class="btn_link">
-                            <button class="btn">Get in Touch</button>
+                            <button type="submit" class="btDS">Get in Touch</button>
                         </a>
                     </div>
 
@@ -558,26 +567,32 @@
                 <div class="contact__container">
 
                     <div class="contact-us">
-                        <form action="action=" https://formspree.io/f/mjvzwoky" name="simple-contact-form"
+                        <form id="FMB" action="action=" https://formspree.io/f/mjvzwoky" name="simple-contact-form"
                             accept-charset="utf-8" method="post" class="mobile__form">
                             <label for="FullName" class="mobile__label" hidden>Fullname</label>
                             <input id="FullName_mobile" name="Full Name" required="" maxlength="30" type="text"
                                 placeholder="Full name" class="mobile__input" />
-                            <label for="contactEmail" class="mobile__label" hidden>email</label>
-                            <input id="contactEmail_mobile" name="Email" required="" type="email"
-                                placeholder="Email adress" class="mobile__input" />
-                            <label for="TextID_mobile class=" mobile__label" hidden>Enquire</label>
+
+                                <label for="contactEmail" class="mobile__label" hidden>email</label>
+                                <input id="contactEmail_mobile"  name="Email" required="" type="email"
+                                    placeholder="Email adress" class="mobile__input email" />
+
+                              
+                          
+                            <label for="TextID_mobile" class="mobile__label" hidden>Enquire</label>
                             <textarea id="TextID_mobile" name="TextArea" maxlength="500" required rows="7"
                                 placeholder="Enter Text" class="mobile__textarea"></textarea>
+
+                                <div class="btnms">
+                                    <a href="#" class="btn_link">
+                                        <button type="submit" class="btnm">Get in Touch</button>
+                                    </a>
+                                </div>
 
                         </form>
                     </div>
                 </div>
-                <div class="btnms">
-                    <a href="#" class="btn_link">
-                        <button class="btnm">Get in Touch</button>
-                    </a>
-                </div>
+                
                 <!-- End ---- The Mbile Form Contact -->
 
 
