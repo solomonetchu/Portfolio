@@ -54,4 +54,35 @@ document.addEventListener("keydown", function (e) {
   }
 });
 
-// Mobile version of Overlay
+// Check email is valid
+const form = document.getElementById("formD");
+const formB = document.getElementById("FMB");
+const email = document.querySelector(".email");
+
+function checkEmail(input) {
+  const re =
+    /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  if (re.test(input.value.trim())) {
+    email.style.borderColor = "#2ecc71";
+  } else {
+    email.style.borderColor = "#e74c3c";
+  }
+}
+
+// Check required fields
+function checkRequired(inputArr) {
+  inputArr.forEach(function (input) {
+    if (input.value.trim() === "") {
+      showError(input, `${getFieldName(input)} is required`);
+    } else {
+      showSuccess(input);
+    }
+  });
+}
+
+// Event listeners
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  checkEmail(email);
+});

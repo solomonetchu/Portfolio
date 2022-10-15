@@ -226,7 +226,9 @@ body {
 .deskform,
 .modal_img,
 .modTitle,
-.modal {
+.modal,
+.btn__Desk,
+.frm {
     display: none;
   }
   p {
@@ -440,7 +442,8 @@ body {
 
 .btn,
 .btnm,
-.mdbtnIcon {
+.mdbtnIcon,
+.btDS {
   height: 48px;
   width: 122px;
   border-radius: 4px;

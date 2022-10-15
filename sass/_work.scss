@@ -5,7 +5,9 @@
   .deskform,
   .modal_img,
   .modTitle,
-  .modal {
+  .modal,
+  .btn__Desk,
+  .frm {
     display: none;
   }
 
@@ -30,7 +32,7 @@
     border-radius: 5px;
     box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
     z-index: 10;
-    background-image: url("/img/Snapshoot Portfolio.png");
+    background-image: url(../img/Snapshoot\ Portfolio.png);
     background-repeat: no-repeat;
     background-clip: border-box;
     background-size: contain;
@@ -242,7 +244,8 @@
 
 .btn,
 .btnm,
-.mdbtnIcon {
+.mdbtnIcon,
+.btDS {
   height: 48px;
   width: 122px;
   border-radius: 4px;
